@@ -27,7 +27,7 @@ Just simplily run:
 ### Bibtex 
     
     @inproceedings{chen2020gaze,
-     title={Appearance-based gaze estimation via gaze decomposition and single gaze point calibration},
+     title={Offset calibration for Appearance-based gaze estimation via gaze decomposition},
      author={Chen, Zhaokang and Shi, Bertram E},
      booktitle={Winter Conference on Applications of Computer Vision},
      year={2020},
