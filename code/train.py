@@ -324,7 +324,7 @@ def main(_):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--MPII_dir', type=str,
+    parser.add_argument('--data_dir', type=str,
                         default='/home/zchenbc/EyeContact/MPIIFaceGaze/data_normalization_face_eyeCenter/data_cv/',
                         help='Directory for storing Mpii data')
     parser.add_argument('--vgg_dir', type=str,
