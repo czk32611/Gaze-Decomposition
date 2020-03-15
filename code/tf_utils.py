@@ -24,8 +24,8 @@ def conv2d(x, W, strides=[1, 1, 1, 1], padding='SAME'):
 
 def dilated2d(x, W, rate, strides=[1, 1, 1, 1], padding='VALID'):
     """conv2d returns a 2d convolution layer with full stride. depend on rate"""
-    return tf.nn.dilation2d(x, W, strides=strides, padding=padding,
-                            dilations=[1, rate[0], rate[1], 1])
+    return tf.nn.convolution(x, W, strides=strides, padding=padding,
+                             dilations=[1, rate[0], rate[1], 1])
     
 def max_pool_2x2(x):
     """max_pool_2x2 downsamples a feature map by 2X."""
